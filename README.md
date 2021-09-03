@@ -7,5 +7,18 @@
 2. รันคำสั่ง `./bin/bundle install`
 3. รันคำสั่ง `./bin/rails veresioning:install`
 
-## คำเตือน
+## How to use
+
+- Get current version
+
+  ```ruby
+  Version.release         # 1.0.2+001
+  Version.release.compact # 1.0.2
+  Version.release.major   # 1
+  Version.release.minor   # 0
+  Version.release.patch   # 2
+  Version.release.build   # 001
+  ```
+
+## Warning
 การจะใช้งาน app-versioning-rails ได้จะต้องมันใจว่ามีการ commit โคดไว้แล้วด้วย เนื่องจากตอนนี้การจัดการค่า build จะดึงมาจาก `git rev-list HEAD | wc -l`
