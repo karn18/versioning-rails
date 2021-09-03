@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    versioning (0.1.0)
+    versioning-rails (0.1.0)
       rails (~> 6.0.0)
 
 GEM
@@ -135,7 +135,7 @@ PLATFORMS
 
 DEPENDENCIES
   sqlite3
-  versioning!
+  versioning-rails!
 
 BUNDLED WITH
    2.2.25

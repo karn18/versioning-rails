@@ -1,7 +1,7 @@
 namespace :version do
   desc "Current version number"
   task :current do
-    puts "📢 Current version number is #{Application::Version.release}"
+    puts "📢 Current version number is #{Version.release}"
   end
   
   desc "Increase patch number"
