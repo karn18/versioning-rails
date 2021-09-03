@@ -1,7 +1,7 @@
 require_relative "lib/versioning/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "versioning"
+  spec.name        = "versioning-rails"
   spec.version     = Versioning::VERSION
   spec.authors     = ["Karn Tirasoontorn"]
   spec.email       = ["karn@hey.com"]
