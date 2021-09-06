@@ -1,7 +1,7 @@
-say "Increase minor number"
+say "Increase minor number ✨"
 require_relative 'helpers'
 
-release = App::Version.release
+release = Version.release
 
 read_version_file(Rails.root.join("config", "version.yml")) do |content|
   content.gsub!(/major: (\d+)/, "major: #{release.minor.to_i + 1}")
