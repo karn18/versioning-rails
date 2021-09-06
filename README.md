@@ -3,7 +3,7 @@
 
 ## Installation
 
-1. เพิ่ม `gem 'versioning-rails', git: 'https://github.com/karn18/versioning-rails'` เข้าไปใน Gemfile
+1. เพิ่ม `gem 'versioning-rails', git: 'https://github.com/karn18/versioning-rails', branch: 'main'` เข้าไปใน Gemfile
 2. รันคำสั่ง `./bin/bundle install`
 3. รันคำสั่ง `./bin/rails veresioning:install`
 
