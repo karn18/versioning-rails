@@ -24,5 +24,5 @@ namespace :version do
 end
 
 def run_template(name)
-  system "#{RbConfig.ruby} ./bin/rails app:template LOCATION=#{File.expand_path("../version/#{name}.rb",  __dir__)}"
+  system "#{RbConfig.ruby} ./bin/rails app:template LOCATION=#{File.expand_path("../cmd/#{name}.rb",  __dir__)}"
 end
