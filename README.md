@@ -1,4 +1,7 @@
 # Versioning for Rails
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z12J9KQ)
+
 การจัดการกับเวอร์ชันให้กับ Rails Application จะไม่ยุ่งยากอีกต่อไป
 
 ## Installation
